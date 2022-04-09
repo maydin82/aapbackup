@@ -3,7 +3,7 @@
 
 Playbook to create Red Hat Ansible Tower backup from Ansible Tower;
 
-- Create an inventory at Ansible Tower which has the same structure which has been used at the installation
+- Create an inventory at Ansible Tower which has the same structure as the one that is used at the installation.
 
 
 - Set the inventory variables similiar as below (same as the inventory variables used to create the AAP cluster);
