@@ -37,6 +37,9 @@ automationhub_pg_password: 'password'
 automationhub_pg_sslmode: 'prefer'
 ```
 
+- Tested with Red Hat Ansible Automation Platform 2.1
+
+
 - Some changes from the default backup role;
 
   - Used sync module instead of fetch at download.yml
