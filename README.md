@@ -45,3 +45,5 @@ automationhub_pg_sslmode: 'prefer'
   - Used sync module instead of fetch at download.yml
 
   - Changed the "delegate_to" from localhost to {{ backup_host }} variable 
+
+  - Added collections requirements.yml for community.general
