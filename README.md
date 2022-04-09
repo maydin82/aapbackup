@@ -5,11 +5,11 @@ Playbook to create Red Hat Ansible Tower backup from Ansible Tower;
 
 - Create an inventory at Ansible Tower which has the same structure as the one that is used at the installation.
 
-![Alt text](https://github.com/maydin82/ansibletowerbackup/readme_screenshots/automationcontroller_group.png?raw=true "automationcontroller_group")
+![automationcontroller_group](readme_screenshots/automationcontroller_group.png)
 
-![Alt text](https://github.com/maydin82/ansibletowerbackup/readme_screenshots/automationhub_group.png?raw=true "automationhub_group")
+![automationhub_group](readme_screenshots/automationhub_group.png)
 
-![Alt text](https://github.com/maydin82/ansibletowerbackup/readme_screenshots/database_group.png?raw=true "database_group")
+![database_group](readme_screenshots/database_group.png?raw=true)
 
 - Set the inventory variables similiar as below (same as the inventory variables used to create the AAP cluster);
 
