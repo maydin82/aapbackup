@@ -37,8 +37,8 @@ automationhub_pg_password: 'password'
 automationhub_pg_sslmode: 'prefer'
 ```
 
-- Some changes from the default backup collection;
+- Some changes from the default backup role;
 
-Used sync module instead of fetch at download.yml
+  - Used sync module instead of fetch at download.yml
 
-Changed the "delegate_to" from localhost to {{ backup_host }} variable 
+  - Changed the "delegate_to" from localhost to {{ backup_host }} variable 
