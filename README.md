@@ -6,11 +6,11 @@ Playbook to create Red Hat Ansible Tower backup from Ansible Tower;
 - Create an inventory at Ansible Tower which has the same structure which has been used at the installation
 
 
-- Set the inventory variables similiar as below;
+- Set the inventory variables similiar as below (same as the inventory variables used to create the AAP cluster);
 
 ```
 ---
-backup_host: backupserver.aydin.lab
+backup_host: tower01.aydin.lab
 backup_dest: '/data/tower/backup/'
 admin_password: 'redhat'
 pg_host: 'pghost.aydin.lab'
